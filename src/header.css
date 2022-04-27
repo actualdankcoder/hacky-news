@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    margin-top: 1rem;
+}
+
+.header-links-column {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: clip;
+    position: relative;
+    width: 100%;
+}
+
+.header-links {
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    display: flex;
+    width: 100%;
+}
+
+.h-link {
+    font-family: 'Barlow', sans-serif;
+    color: rgba(225, 225, 225, 0.69);
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+
+#h-login {
+    margin-left: auto;
+}
+
+#logo {
+    float: left;
+    height: var(--logo);
+    width: var(--logo);
+    margin-right: 10px;
+}

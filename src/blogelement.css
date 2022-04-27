@@ -1,0 +1,40 @@
+:root {
+    --a-img: 1rem;
+}
+
+.b-link {
+    font-family: 'Barlow', sans-serif;
+    font-size: 15pt;
+    color: rgb(138, 177, 255);
+}
+
+.b-element {
+    margin-top: 1rem;
+    list-style: none;
+}
+
+.b-meta-line {
+    color: rgb(187, 187, 187);
+}
+.b-user-click {
+    color: rgb(80, 112, 177);
+}
+.b-author-image {
+    vertical-align: text-bottom;
+    border-radius: 100%;
+    height: var(--a-img);
+    width: var(--a-img);
+}
+
+/* Some tags i stole */
+
+.tag {
+    font-size:10pt;
+    margin: 0.5rem;
+    padding: 0 0.5rem 0 0.5rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    border: none;
+    background: crimson;
+}
